@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Canedo | Portfólio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #f1f1f1;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: #00fff0;
+    }
+
+    nav a {
+      color: #f1f1f1;
+      margin-left: 2rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #00fff0;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+
+    .projetos-grid {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .slot {
+      height: auto;
+      width: auto;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Canedo</h1>
+    <nav>
+      <a href="#" onclick="mostrar('sobre')">Sobre</a>
+      <a href="#" onclick="mostrar('projetos')">Projetos</a>
+    </nav>
+  </header>
+
+  <section id="sobre">
+    <h2>ESTE É UM PORTIFOLIO PROVISÓRIO</h2>
+    <h2>Sobre</h2>
+    <p>Olá! Meu nome é Canedo. Sou designer e desenvolvedor web. Tenho experiência criando interfaces modernas e funcionais para web. Estou sempre em busca de novas oportunidades para aplicar minha criatividade e habilidades técnicas.</p>
+  </section>
+
+  <section id="projetos">
+    <h2>Projetos</h2>
+    <div class="projetos-grid">
+      <div class="slot"><img src="Captura de tela 2025-07-16 163900.png" alt="" height="300px"></div>
+      <div class="slot"><img src="Imagem do WhatsApp de 2025-06-25 à(s) 16.02.02_4a7fd396.jpg" alt=""height="300px"></div>
+      <div class="slot"><img src="Imagem do WhatsApp de 2025-06-25 à(s) 16.03.28_979c6a74.jpg" alt=""height="400px"></div>
+      <div class="slot"><img src="Imagem do WhatsApp de 2025-06-27 à(s) 18.01.51_3663fec4.jpg" alt=""height="400px"></div>
+    </div>
+  </section>
+
+  <footer>
+  </footer>
+</body>
+</html>
